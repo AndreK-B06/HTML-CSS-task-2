@@ -7,15 +7,89 @@
     <title>HTML_task2</title>
   </head>
   <body>
-    <h1>Test</h1>
-    <div>
-      <lable for="fname">First name:</lable><br />
+    <div class="input">
+      <h1>Test</h1>
+
+      <!--============= First name =========== -->
+      <div class="name">
+        <div>
+          <lable for="fname">First name:</lable><br />
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            maxlength="20"
+            size="20"
+            placeholder="Enter Your first name.."
+          /><br />
+        </div>
+
+        <!--============= Last name =========== -->
+
+        <div>
+          <lable for="lname">Last name:</lable><br />
+          <input
+            type="text"
+            id="lname"
+            name="lname"
+            maxlength="20"
+            size="20"
+            placeholder="Enter Your last name.."
+          /><br />
+        </div>
+      </div>
+
+      <!--========= username ===========-->
+      <div>
+        <label for="username">Username:</label><br />
+        <input
+          type="text"
+          id="username"
+          name="username"
+          maxlength="13"
+          size="13"
+          placeholder="Enter Your username..."
+          required
+        />
+      </div>
+
+      <!--========= password ===========-->
+
+      <div>
+        <label for="password">Password:</label><br />
+        <input
+          type="password"
+          id="password"
+          name="password"
+          maxlength="13"
+          size="13"
+          placeholder="Enter Your password..."
+        />
+      </div>
+
+      <!--========= Email ===========-->
+      <div>
+        <label for="Email">Email:</label><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          maxlength="35"
+          size="35"
+          placeholder="Enter Your email.."
+        />
+      </div>
+
+      <!--========= Search ===========-->
+
+      <label for="Serarch">Serarch Google:</label>
       <input
-        type="text"
-        id="fname"
-        name="fname"
-        placeholder="Your name.."
-      /><br />
+        type="Search"
+        id="gserarch"
+        name="gserarch"
+        placeholder="Serarch...."
+      />
+      <button>Sbumit</button>
     </div>
   </body>
 </html>
