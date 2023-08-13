@@ -8,6 +8,8 @@ body {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   background-color: #8ecae6;
   margin: 50px;
+  height: 100vh;
+  background: linear-gradient(pink, rgb(145, 131, 211), pink);
 }
 
 .input {
@@ -15,9 +17,6 @@ body {
   border-radius: 4px;
   border: 2px solid black;
   margin-bottom: 20px;
-  background-image: url(images/brua.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
   padding: 12px 20px 12px 40px;
   color: white;
   text-shadow: black 1px 1px 3px;
@@ -26,11 +25,12 @@ body {
 H1 {
   margin: 30px auto;
 }
+
 .name {
-  width: 100%;
-  border-radius: 4px;
-  border-bottom: 2px solid orange;
-  margin-bottom: 20px;
+  background-image: url(images/brua.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 40px;
 }
 
 #fname,
@@ -53,6 +53,41 @@ input[type="text"] {
   border: 3px solid #555;
 }
 
-#gserarch {
-  color: black;
+#message {
+  margin-bottom: 40px;
+  margin-top: 20px;
+  min-width: 400px;
+  min-height: 150px;
+}
+
+textarea {
+  resize: none;
+}
+
+.color {
+  margin-bottom: 40px;
+}
+
+fieldset {
+  background-color: #eeeeee;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+legend {
+  background-color: gray;
+  color: white;
+  padding: 5px 10px;
+}
+
+#favcolor,
+#Birthday,
+#myfile,
+#bdaymonth,
+#quantity,
+#vol,
+#appt,
+#homeepage {
+  margin-bottom: 40px;
+  margin-top: 20px;
 }
